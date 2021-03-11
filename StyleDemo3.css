@@ -1,0 +1,318 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+.div1{
+    height: 500px;
+    background-position: center;
+    background-image: url("Images/image6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.div1-text{
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h5 a{
+    padding: 2px 10px;
+    border: 2px solid  rgb(214, 52, 52);
+    border-radius: 2px;
+    background-color: rgb(214, 52, 52);
+
+}
+h5 a:hover{
+    background-color: gray;
+    transition: .35s;
+}
+.div2{
+    width: 100%;
+    height: 400px;
+    background-color: white
+}
+.div2 h2{
+    text-align: center;
+    padding-top: 45px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.div2-1{
+    
+    width: 30%;
+    height: 300px;
+    float: left;
+    margin-top: 35px;
+}
+.div2-1 h2{
+    padding-top: 50px;
+    color: black;
+    text-align: center;
+}
+.div2-1 p{
+    text-align: justify;
+    margin-top: 25px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.div2-2{
+    margin-top: 35px;
+    width: 30%;
+    height: 300px;
+    float: left;
+    margin-left: 5%;
+}
+.div2-2 h2{
+    padding-top: 50px;
+    color: black;
+    text-align: center;
+}
+.div2-2 p{
+    text-align: justify;
+    margin-top: 25px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.div2-3{
+    margin-top: 35px; 
+    width: 30%;
+    height: 300px;
+    float: right;
+}
+.div2-3 h2{
+    padding-top: 50px;
+    color: black;
+    text-align: center;
+}
+.div2-3 p{
+    text-align: justify;
+    margin-top: 25px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.div3{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(224, 36, 36);
+}
+.div3-1{
+    width: 35%;
+    height: 80px;
+    float: left;
+    
+}
+.div3-1 h4{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.div3-1 h3{
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.div3-2{
+    width: 30%;
+    height: 100px;
+    float: left;
+
+}
+.div3-2 h4{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.div3-2 h3{
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.div3-3{
+    width: 35%;
+    height: 100px;
+    float: left;
+}
+.div3-3 h4{
+    padding-top: 35px;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.div3-3 a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 2px 10px;
+}
+.div4{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(219, 215, 215);
+}
+.div4-1{
+    width: 40%;
+    height: 140px;
+    margin-top: 80px;
+    margin-left: 242px;
+    float: left;
+    background-color: white;
+    
+}
+.div4-1 h3{
+    margin-top: 30px;
+    margin-left: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+.div4-1 p{
+    margin-left: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+.div4-2{
+    width: 24%;
+    height: 140px;
+    margin-top: 80px;
+    margin-right: 242px;
+    float: right;
+    background-color: rgb(197, 22, 22);
+    
+}
+.div4-2-1{
+    width: 25%;
+    height: 140px;
+    float: left;
+}
+.div4-2-1 h2{
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+.div4-2-1 p{
+    text-align: center;
+    font-size: small;
+    color: white;
+}
+.div4-2-2{
+    width: 25%;
+    height: 140px;
+    float: left;
+    border-left: 1px solid white;
+}
+.div4-2-2 h2{
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+.div4-2-2 p{
+    text-align: center;
+    font-size: small;
+    color: white;
+}
+.div4-2-3{
+    width: 25%;
+    height: 140px;
+    float: left;
+    border-left: 1px solid white;
+}
+.div4-2-3 h2{
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+.div4-2-3 p{
+    text-align: center;
+    font-size: small;
+    color: white;
+}
+.div4-2-4{
+    width: 25%;
+    height: 140px;
+    float: left;
+    border-left: 1px solid white;
+}
+.div4-2-4 h2{
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+.div4-2-4 p{
+    text-align: center;
+    font-size: small;
+    color: white;
+}
+.div5{
+    width: 100%;
+    height: 700px;
+
+}
+.div5 h2{
+    text-align: center;
+    padding-top: 70px;
+    color: black;
+}
+.div5-1{
+    width: 20.5%;
+    height: 500px;
+    background-color: white;
+    margin-left: 242px;
+    margin-top: 50px;
+    float: left;
+}
+.div5-123-image{
+    width: 100%;
+    height: 150px;
+}
+.div5-123-image img{
+    width: 100%;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div5-1-1{
+    width: 100%;
+    height: 350px;
+}
+.div5-1-1 h1{
+    color: black;
+    font-size: medium;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.div5-1-1 p{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.clr{
+    color: red;
+}
+.div5-2{
+    width: 20.5%;
+    height: 500px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 32px;
+    float: left;
+}
+.div5-3{
+    width: 20.5%;
+    height: 500px;
+    background-color: white;
+    margin-top: 50px;
+    float: right;
+    margin-right: 242px;
+}
